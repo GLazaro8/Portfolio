@@ -1,8 +1,43 @@
-/*************************************************************************/
-/*                                                                       */
-/*                         Lenguaje de Marcas                            */
-/*                  Autor: Gonzalo Lázaro Zambrano                       */
-/*                 Archivo css de Tortilla de patatas                    */
-/*                                                                       */ 
-/*************************************************************************/
+/*****************************************************/
+/*         hoja de estilo de tortilla.html           */
+/*         autora: Gonzalo Lázaro Zambrano           */
+/*         version: 1.0                              */
+/*         fecha: octubre de 2023                    */
+/*         comentario: trabajo de lenguaje de marcas */
+/*****************************************************/
 
+@font-face{ src:url()   ;
+            font-family: texto;
+          }
+
+@font-face {
+  font-family: titulos;
+  src: url();
+}
+
+/* poner SIEMPRE que utilicemos un layout complejo */
+/* las medidas de ancho y alto se deben calcular del borde hacia dentro */
+* {box-sizing: border-box;}
+
+body {background-color: #f7f298;
+      margin:0;padding:0;          /* para que el wrapper se pegue a body */
+      font-size: 1.2em;
+      background-image: url(../imagen/mantel\ fondo.jpg);
+    }
+
+blockquote {font-style: italic;
+            border-left: 4px solid purple;
+            padding: 10px;
+            background-color: rgb(242, 191, 242);
+
+}
+
+#wrapper {width:80%; /* Para width, las medidas suelen ser en porcentajes */
+          margin:auto;
+          padding: 5%;
+          background-color: #fff;}
+
+dt {font-weight: bold;
+    font-variant: small-caps;
+    text-decoration: overline underline;
+    color: darkmagenta;}

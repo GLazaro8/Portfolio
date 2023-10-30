@@ -1,0 +1,70 @@
+/**/
+
+
+* {box-sizing: border-box;}
+
+#wrapper {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 0%;}
+
+#titulo {text-align: center;
+        font-size: 6em;
+        color:black;
+        border: 5px solid rgb(0, 0, 0);
+        border-radius: 10px;
+        background-color: antiquewhite;
+        box-shadow: 5px 5px 5px gray;}
+
+blockquote {
+    font-style: italic;
+    font-weight: bold;
+    color:black;
+    text-align: center;
+    padding: 2%;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-left: solid 10px black;
+    border-right: solid 10px black;
+    background-color: antiquewhite;
+    box-shadow: 2px 2px 15px grey,
+                -2px 2px 15px grey,
+                2px -2px 15px grey,
+                -2px -2px 15px grey;
+}
+
+#ingredientes {color:black;
+    padding-left: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 3%;
+    border-radius: 10px;
+    background-color: antiquewhite;}
+
+#elaboracion {color:black;
+    padding-left: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 3%;
+    border-radius: 10px;
+    background-color: antiquewhite;}
+
+#macros {color:black;
+    padding-left: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 3%;
+    border-radius: 10px;
+    background-color: antiquewhite;}
+
+h2 {color:black;
+    padding: 2%;
+    border: solid rgb(202, 190, 175);
+    border-radius: 10px;
+    background-color: antiquewhite;}
+
+body {
+    background-image: url(https://i.pinimg.com/736x/2e/d7/9b/2ed79b3d18c5196dd44424d65ee5d91f.jpg);
+}
