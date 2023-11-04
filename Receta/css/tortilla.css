@@ -12,7 +12,7 @@
 
 @font-face {
   font-family: titulos;
-  src: url();
+  src: url(../fonts/PAINP___.TTF);
 }
 
 /* poner SIEMPRE que utilicemos un layout complejo */
@@ -23,6 +23,7 @@ body {background-color: #f7f298;
       margin:0;padding:0;          /* para que el wrapper se pegue a body */
       font-size: 1.2em;
       background-image: url(../imagen/mantel\ fondo.jpg);
+      background-size: cover;
     }
 
 blockquote {font-style: italic;
@@ -31,6 +32,11 @@ blockquote {font-style: italic;
             background-color: rgb(242, 191, 242);
 
 }
+
+img {float: center;
+    display:block;
+    margin:auto;
+    width: 40%;}
 
 #wrapper {width:80%; /* Para width, las medidas suelen ser en porcentajes */
           margin:auto;
@@ -41,3 +47,15 @@ dt {font-weight: bold;
     font-variant: small-caps;
     text-decoration: overline underline;
     color: darkmagenta;}
+
+    /********************** RESPONSIVIDAD: TOMAMOS CONTROL *********************************/
+
+    /************* VAMOS A HACER QUE EL WRAPPER PSE AL 100% EN MÓVIL ***********************/
+
+    /************************* ATENCIÓN: MEDIA QUERY ***************************************/
+
+    @media only screen and (width<700px) {
+                            #wrapper {width:95%;}
+                            img {width:100%;}
+
+    }
